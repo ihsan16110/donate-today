@@ -73,8 +73,6 @@ body {
 .section-3,
 .section-4,
 .section-5 {
-
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,6 +84,8 @@ body {
     font-size: 45px;
     margin-top: 100px;
     margin-bottom: 0;
+    justify-content: center;
+    text-align: center;
 
 
 }
@@ -101,7 +101,7 @@ body {
     margin-bottom: 25px;
 }
 
-box {
+.box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -142,10 +142,6 @@ box {
 
 }
 
-/* 
-.form {
-    margin-bottom: 100px;
-} */
 
 .form {
 
@@ -206,6 +202,17 @@ box {
 
 }
 
+.link-button-section-4 {
+    margin-bottom: 50px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: #FF5959;
+    border-radius: 5px;
+    margin: 20px 10px 10px 10px;
+
+}
+
 .section-5 .input-1 {
     background: rgb(238, 174, 202);
     background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
@@ -226,7 +233,7 @@ box {
 }
 
 .section-5 .input-1 a {
-    background-color: ;
+    background-color: #FF5959;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -268,7 +275,7 @@ footer {
     height: 130px;
 }
 
-footer h1 {
+footer h2 {
     font-family: 'Lobster', cursive;
     text-align: center;
     color: #FF5959;
