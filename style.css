@@ -37,68 +37,6 @@ body {
 
 }
 
-.components .healine-1 h1 {
-    text-align: center;
-    color: #dddddd;
-    padding: 5px;
-}
-
-.components .details-1 p {
-    text-align: center;
-    color: #dddddd;
-    padding: 5px;
-
-}
-
-.details-2 p {
-    text-align: center;
-    color: black;
-    padding: 5px;
-}
-
-.link-button {
-    margin-bottom: 50px;
-    text-decoration: none;
-    background-color: #FF5959;
-    padding: 20px;
-    color: white;
-    font-weight: 700;
-    border-radius: 5px;
-}
-
-.link-button-1 {
-    margin-bottom: 50px;
-    /* padding: 20px; */
-    color: white;
-    text-decoration: none;
-    background-color: #FF5959;
-    border-radius: 5px;
-    margin: 20px 10px 10px 10px;
-
-
-}
-
-.form {
-    margin-bottom: 100px;
-}
-
-.section-2 {
-
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.form {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
 .hedline-1 h1 {
     font-weight: bold;
     color: white;
@@ -108,6 +46,38 @@ body {
 
 }
 
+.components .details-1 p {
+    text-align: center;
+    color: #dddddd;
+    padding: 5px;
+
+}
+
+.link-button-1 {
+    margin-bottom: 50px;
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+/* 
+.components {
+    text-align: center;
+    color: #dddddd;
+    padding: 5px;
+} */
+.section-2 {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .donate h1 {
     font-weight: bold;
     font-size: 45px;
@@ -115,6 +85,13 @@ body {
     margin-bottom: 0;
 
 
+}
+
+
+.details-2 p {
+    text-align: center;
+    color: black;
+    padding: 5px;
 }
 
 .details-2 {
@@ -148,6 +125,34 @@ box {
     border: 2px solid #FF5959;
 }
 
+
+
+.link-button-2 {
+    margin-bottom: 50px;
+    /* padding: 20px; */
+    color: white;
+    text-decoration: none;
+    background-color: #FF5959;
+    border-radius: 5px;
+    margin: 20px 10px 10px 10px;
+
+
+}
+
+/* 
+.form {
+    margin-bottom: 100px;
+} */
+
+.form {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
 .form input {
     outline: none;
     width: 500px;
@@ -156,36 +161,3 @@ box {
     border-right-style: none;
     border-bottom-style: 1px solid #000000;
 }
-
-
-/* #donate-today {
-    font-size: 40px;
-    color: black;
-    text-align: center;
-    padding: 20px 20px;
-
-} */
-
-/* #top {
-    color: white;
-} */
-/* 
-.flexible-container {
-    display: flex;
-    margin: 30px 50px;
-    justify-content: center;
-} */
-
-
-
-
-
-
-/* .top-banner {
-    background-image: url(images/donation5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 669px;
-    width: 1440px;
-    background-position: top;
-} */
