@@ -161,7 +161,8 @@ body {
     border-bottom-style: 1px solid #000000;
 }
 
-.setion-3 .plan-headline h1 {
+.setion-3,
+.plan-headline h1 {
     font-weight: bold;
     font-size: 45px;
     margin-bottom: 0;
@@ -183,12 +184,14 @@ body {
 }
 
 #food {
+    text-align: justify;
     background: rgb(252, 252, 252);
     background: linear-gradient(90deg, rgba(252, 252, 252, 1) 0%, rgba(210, 139, 139, 1) 0%,
             rgba(255, 198, 198, 1)100%);
 }
 
 #shelter {
+    text-align: justify;
     background: rgb(252, 252, 252);
     background: linear-gradient(90deg, rgba(252, 252, 252, 1) 0%, rgba(210, 139, 139, 1) 0%,
             rgba(255, 51, 51, 1)100%);
@@ -196,6 +199,7 @@ body {
 
 
 #education {
+    text-align: justify;
     background: rgb(252, 252, 252);
     background: linear-gradient(90deg, rgba(252, 252, 252, 1) 0%, rgba(210, 139, 139, 1) 0%,
             rgba(255, 198, 198, 1)100%);
@@ -209,7 +213,7 @@ body {
     text-decoration: none;
     background-color: #FF5959;
     border-radius: 5px;
-    margin: 20px 10px 10px 10px;
+    /* margin: 20px 10px 10px 10px; */
 
 }
 
