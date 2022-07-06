@@ -69,7 +69,10 @@ body {
     color: #dddddd;
     padding: 5px;
 } */
-.section-2 {
+.section-2,
+.section-3,
+.section-4,
+.section-5 {
 
 
     display: flex;
@@ -200,5 +203,83 @@ box {
     background: rgb(252, 252, 252);
     background: linear-gradient(90deg, rgba(252, 252, 252, 1) 0%, rgba(210, 139, 139, 1) 0%,
             rgba(255, 198, 198, 1)100%);
+
+}
+
+.section-5 .input-1 {
+    background: rgb(238, 174, 202);
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    border-radius: 5px;
+    width: 45%;
+    padding: 50px;
+    justify-content: center;
+    display: flex;
+    margin: 20px 40px 110px 40px;
+}
+
+.input-1 input {
+    outline: none;
+    border-style: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #dddddd;
+}
+
+.section-5 .input-1 a {
+    background-color: ;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.need {
+    display: flex;
+    justify-content: center;
+
+}
+
+.need img {
+    border-radius: 5px;
+    height: 250px;
+    width: 550px;
+
+}
+
+.need-divider {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 35px;
+    margin: 15px 30px 60px 30px;
+
+}
+
+.donation-1 {
+    padding: 80px;
+    margin: 40px;
+
+}
+
+footer {
+    background-color: #0b0d17;
+    height: 130px;
+}
+
+footer h1 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: #FF5959;
+    margin: 0;
+    padding: 15px;
+
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding: 5px;
 
 }
