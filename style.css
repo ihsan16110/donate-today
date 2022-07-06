@@ -222,6 +222,7 @@ body {
     font-size: 45px;
     margin-top: 100px;
     margin-bottom: 0;
+    text-align: left;
 
 }
 
@@ -229,7 +230,7 @@ body {
     font-weight: bold;
     color: black;
     font-size: 45px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 0;
 }
 
@@ -262,6 +263,8 @@ body {
     border-top-right-radius: 5px;
 }
 
+
+
 .need {
     width: 50%;
     padding: 5%;
@@ -283,6 +286,12 @@ body {
     padding: 5%;
 }
 
+.need-details-4 p {
+    justify-content: center;
+
+
+}
+
 .need-divider {
     display: flex;
     justify-content: center;
@@ -295,6 +304,9 @@ body {
 .donation-1 {
     padding: 80px;
     margin: 40px;
+    width: 50%;
+    padding: 5px;
+
 
 }
 
